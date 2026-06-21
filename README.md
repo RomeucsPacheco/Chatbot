@@ -11,7 +11,11 @@ O projeto prioriza código limpo, linear e altamente explicativo, utilizando **P
 
 ## Como Instalar e Rodar o Projeto
 
-1. **Abra o terminal nesta pasta do projeto.**
+1. **Clone o repositório e acesse a pasta:**
+   ```bash
+   git clone https://github.com/RomeucsPacheco/Chatbot.git
+   cd Chatbot
+   ```
 
 2. **(Recomendado) Crie e ative um ambiente virtual:**
    Para garantir que as dependências do projeto não entrem em conflito com outros projetos Python na sua máquina.
@@ -31,19 +35,16 @@ O projeto prioriza código limpo, linear e altamente explicativo, utilizando **P
    ```
 
 4. **Configure sua chave da API:**
-   Crie um arquivo chamado `.env` na raiz do projeto e adicione sua chave nele:
+   Como as chaves não são enviadas ao GitHub por segurança, você precisará configurar a sua. Crie um arquivo chamado `.env` na raiz do projeto e adicione a chave gerada:
    ```env
    GOOGLE_API_KEY=sua_chave_aqui
    ```
 
-5. **Adicione o Manual:**
-   Certifique-se de que o arquivo `manual.pdf` está na mesma pasta que o `app.py`.
-
-6. **Execute a aplicação:**
+5. **Execute a aplicação:**
    ```bash
    streamlit run app.py
    ```
-   *Ao rodar este comando, o navegador padrão será aberto com a interface da aplicação.*
+   *Ao rodar este comando, o navegador padrão será aberto com a interface da aplicação. O arquivo `manual.pdf` já está incluso no repositório e será lido automaticamente.*
 
 ## Como usar a aplicação
 
